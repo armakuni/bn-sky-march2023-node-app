@@ -1,0 +1,22 @@
+{
+  "name": "bn-sky-march2023-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armakuni/bn-sky-march2023-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armakuni/bn-sky-march2023-node-app/issues"
+  },
+  "homepage": "https://github.com/armakuni/bn-sky-march2023-node-app#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

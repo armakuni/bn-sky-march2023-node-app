@@ -1,7 +1,12 @@
 const http = require("http");
+const greeter = require("./view.js")
 const hostname = "localhost";
+
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
-    res.end("<html><body><h1>Hello, World!</h1></body></html>");
+    res.end(greeter());
 })
+
 server.listen(process.env.PORT || 5000, hostname);
+
+module.exports = server;
