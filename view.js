@@ -5,7 +5,7 @@ function greeter() {
 
                 <style>
                     body {
-                        background-color: pink;
+                        background-color: cyan;
                         color: red;
                     }
                 </style>
